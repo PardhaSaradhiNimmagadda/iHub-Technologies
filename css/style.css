@@ -1,0 +1,51 @@
+.header_color{
+	background-color: #333;
+}
+.companymail, .companyphno{
+	color: #fff;
+} 
+
+.info_data{
+	line-height: 40px !important;
+	
+}
+.info_data.capitalize{
+	text-transform: capitalize;
+}
+.nav_field{
+	float: right !important;
+}
+.haderdata{
+	width: 100% !important;
+}
+
+
+
+
+
+/* Pardhu Code */
+
+.carousel-inner .item img {
+    width: 100%;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control {
+    color: #333 !important;
+    width: 5% !important;
+}
+
+.blockFont {
+    font-size: 10px;
+}
+
+.serviceImg {
+    text-align: center;
+}
+
+.blockFont h2 {
+    font-size: 14px;
+}
