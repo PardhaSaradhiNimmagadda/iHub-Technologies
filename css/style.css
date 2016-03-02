@@ -1,3 +1,223 @@
+/* Pardhu Code */
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.headerNavbar {
+    margin-bottom: 0px !important;   
+}
+
+.ihubCustomScrollBar {
+    /*height: 506px;*/
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.companymail, .nav_field {
+    font-size: 12px !important;   
+    color: #fff;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+}
+
+/*@media (min-width: 320px) {
+    .ihubCustomScrollBar {
+        height: 506px;
+    }
+}
+
+@media (min-width: 460px) {
+    .ihubCustomScrollBar {
+        height: 506px;
+    }
+}
+
+@media (min-width: 728px) {
+    .ihubCustomScrollBar {
+        height: 506px;
+    }
+}
+
+@media (min-width: 920px) {
+    .ihubCustomScrollBar {
+        height: 506px;
+    }
+}
+
+@media (min-width: 1023px) {
+    .ihubCustomScrollBar {
+        height: 506px;
+    }
+}*/
+
+@media (min-width: 1350px) {
+    .bannerImage {
+        height: auto !important; 
+    }
+    
+    /*.ihubCustomScrollBar {
+        height: 506px;
+    }*/ /*Added in jQuery Dynamic Height*/
+    
+    .services_background {
+        height: 244px !important;
+    }
+}
+
+@media (min-width: 1375px) {
+    .bannerImage {
+        height: auto !important; 
+    }
+    .services_background {
+        height: auto !important;
+    }
+    /*.ihubCustomScrollBar {
+        height: 818px;
+    }*/ /*Added in jQuery Dynamic Height*/
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control {
+    color: #333 !important;
+    width: 5% !important;
+}
+
+.blockFont {
+    font-size: 10px;
+}
+
+.serviceImg {
+    text-align: center;
+}
+
+.blockFont h2 {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.blockFont p {
+    text-align: center;
+}
+
+.services_background {
+    background: url('../images/services_background.jpg');
+    color: #fff !important;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+
+.ihub_service_back {
+    height: 70px;
+    width: 70px;
+    color: #fff;
+    line-height: 60px;
+    border-radius: 50%;
+    padding-top: 8px;
+    margin: 0 auto;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+
+    overflow:hidden;
+}
+
+
+.ihub_service_back:hover {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
+
+.ihub_services {
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    line-height: 60px;
+    /*background: #ccc;*/
+    border-radius: 50%;
+    font-size: 18px;
+    padding-top: 10px;
+    -webkit-box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.5);
+}
+
+.core_services {
+    background: #0048ff;
+}
+
+.ioT {
+    background: #cf9a00;   
+}
+
+.health_care {
+    background: #62ad00;   
+}
+
+.ecommerce_solutions {
+    background: #be3d3e;
+}
+
+.ecommerceStoreImg {
+    cursor: pointer;
+}
+
+.footer_credits {
+    height: 30px;   
+    min-height: 30px !important;
+    color: #fff !important;
+    background: #333 !important;
+    border-color: #333 !important;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer_credits a, .footer-nav a:link, .footer-nav a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_credits a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer_credits {
+    line-height: 30px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Hussain Code*/
+
 .header_color{
 	background-color: #333;
 }
@@ -22,30 +242,3 @@
 
 
 
-
-/* Pardhu Code */
-
-.carousel-inner .item img {
-    width: 100%;
-}
-
-.carousel-control.left, .carousel-control.right {
-    background-image: none !important;
-}
-
-.carousel-control {
-    color: #333 !important;
-    width: 5% !important;
-}
-
-.blockFont {
-    font-size: 10px;
-}
-
-.serviceImg {
-    text-align: center;
-}
-
-.blockFont h2 {
-    font-size: 14px;
-}
