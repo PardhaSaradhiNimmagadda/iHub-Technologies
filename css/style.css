@@ -1,8 +1,101 @@
+/*Hussain Code*/
+
+.header_color{
+	background-color: #333;
+}
+.companymail, .companyphno{
+	color: #fff;
+} 
+
+.info_data{
+	line-height: 40px !important;
+	
+}
+.info_data.capitalize{
+	text-transform: capitalize;
+}
+.nav_field{
+	float: right !important;
+}
+.haderdata{
+	width: 100% !important;
+}
+
+/*Hussain code end*/
+
+
+
+
+/*swapna code*/
+
+
+.about_us{
+    /*background: url('../images/about_us.jpg') !important;*/
+    background: #fff;
+    color: #fff !important;
+    
+}
+
+.blockFont p {
+    text-align: -moz-left;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    width: 153%;
+}
+
+.title{
+    margin-left: 18%;
+    font-size: 34px;
+    color:#000;
+}
+
+.vision{
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    width: 41%;
+    height: 46px;
+    font-size: 27px;
+    margin-left: 53%;
+    padding-top: 1%;
+    padding-left: 12px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.verticalLine {
+   border-left: 2px solid #000 !important;
+    padding-top: 35%;
+    margin-left: 98%;
+}
+
+.vision:hover, .isActive_aboutus {
+    background-color: #3DA7FD;
+}
+
+.socialIcons {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding-left: 15px;
+}
+
+.color{
+    color:#ccc;
+}
+
+/*swapna code end*/
+
+
+
 /* Pardhu Code */
 
 body {
     overflow-x: hidden;
     overflow-y: hidden;
+    font-family: 'Droid Sans', sans-serif !important;
 }
 
 .headerNavbar {
@@ -25,35 +118,48 @@ body {
     width: 100%;
 }
 
-/*@media (min-width: 320px) {
-    .ihubCustomScrollBar {
-        height: 506px;
-    }
+
+/*Scrollbar Styling*/
+
+.ihubCustomScrollBar {
+    width: 100% !important;
 }
 
-@media (min-width: 460px) {
-    .ihubCustomScrollBar {
-        height: 506px;
-    }
+.track3 {
+    width: 10px;
+    background: rgba(0, 0, 0, 0);
+    margin-right: 2px;
+    border-radius: 10px;
+    -webkit-transition: background 250ms linear;
+    transition: background 250ms linear;
 }
 
-@media (min-width: 728px) {
-    .ihubCustomScrollBar {
-        height: 506px;
-    }
+.track3:hover,
+.track3.dragging {
+    background: #d9d9d9; 
+    background: rgba(0, 0, 0, 0.15);
 }
 
-@media (min-width: 920px) {
-    .ihubCustomScrollBar {
-        height: 506px;
-    }
+.handle3 {
+    width: 7px;
+    right: 0;
+    background: #999;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    -webkit-transition: width 250ms;
+    transition: width 250ms;
 }
 
-@media (min-width: 1023px) {
-    .ihubCustomScrollBar {
-        height: 506px;
-    }
-}*/
+.track3:hover .handle3,
+.track3.dragging .handle3 {
+    width: 10px;
+}
+
+
+/*/. Scrollbar Syling*/
+
+
+
 
 @media (min-width: 1350px) {
     .bannerImage {
@@ -206,39 +312,168 @@ body {
     line-height: 30px;   
 }
 
-
-
-
-
-
-
-
-
-
-
-/*Hussain Code*/
-
-.header_color{
-	background-color: #333;
-}
-.companymail, .companyphno{
-	color: #fff;
-} 
-
-.info_data{
-	line-height: 40px !important;
-	
-}
-.info_data.capitalize{
-	text-transform: capitalize;
-}
-.nav_field{
-	float: right !important;
-}
-.haderdata{
-	width: 100% !important;
+.contactButtons {
+    8px 30px !important;
+    margin-top: 10px;
 }
 
+.contactAddress {
+       
+}
+
+.contactBackground {
+    background: #0d7660 no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;   
+}
+
+.whiteBg {
+    background: #fff;
+    padding: 20px 10px;
+    margin-left: 10px;
+    height: 250px;
+}
+
+.markerIcon {
+    width: 100%;
+    font-size: 199px;
+    text-align: center;
+    color: #0D7660;
+}
+
+.contactAddress h3 a, .whiteBg .col-md-2 label {
+    color: #0D7660;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contactAddress h3 a:link, .contactAddress h3 a:visited, .contactAddress h3 a:hover {
+    text-decoration: none;
+    color: #0D7660;
+}
+
+.details input, .details .col-md-2 {
+    margin-bottom: 5px;   
+}
+
+.ecommerceHeading {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ecommerceCaption {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ecommerceCaption:before {
+    content: '';
+    position: absolute;
+    margin-top: -14px;
+    bottom: auto;
+    left: 47%;
+    height: 3px;
+    width: 93px;
+    margin-left: -15px;
+    display: block;
+    background-color: #ebb129;
+}
+
+.ecommerceServicesList {
+    list-style: none;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.listItem{
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+
+.listItem:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.listItemActive {
+    padding-left: 30px;
+    border-left: 2px solid #ebb129;
+    font-weight: bold;
+}
+
+.ecommerceServicesSection {
+    margin-top: 15px;   
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.ecommerceServicesSection h1 {
+    color: #ebb129 !important;
+}
+
+.ecommerceServicesSection label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.labelDescription {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.ecommerceServicesSection .col-md-6 {
+    margin-top: 20px;   
+}
+
+.sectionDetails {
+    margin-bottom: 40px;   
+}
+
+.about_us_background {
+    background: url(../images/bg_image.jpg) no-repeat; 
+    background-size: cover;
+    padding: 20px 0px;    
+}
+
+.about_us_content {
+    padding-top: 10px;
+}
+
+.about_us_content h1 {
+    padding-bottom: 10px;
+}
+
+.vision2 h3 {
+    color: #333;
+}
+
+.vision2 h5 {
+    color: #727272;
+}
 
 
 
+.twitter-icon i:hover {
+    color: #1da1f2;
+}
+
+.facebook-icon i:hover {
+    color: #3a5795;
+}
+
+.google-plus-icon i:hover {
+    color: #d73d32;
+}
+
+.youtube-icon i:hover {
+    color:  #cc181e;
+}
+
+.envelope-icon i:hover {
+    color: #cffe52;
+}

@@ -1,1 +1,94 @@
-<h1>About Us</h1>
+<div class="about_us">
+      <div class="row about_us_background">
+            <div class="container">
+              <div class="col-md-12 col-sm-12 blockFont">
+                  <div class="row">
+                        <div class="col-md-12">
+                          <h1 style="font-size: 40px;">About Us</h1>
+                          <h3 class="color">Easily order any of the services we provide</h3>
+                          <hr class="color"></hr>
+                        </div>
+                    </div>
+                    <div class="row">
+	                    <div class="col-md-4 color">
+	                    	<!--<h4>Home / About</h4>-->
+	                   	</div>
+	                    	
+	                     <div class="col-md-8" style="text-align:right">
+
+	                     	<span class="twitter-icon">
+	                     		<i class="socialIcons fa fa-twitter btn" data-toggle="tooltip" data-placement="top" title="Follow on Twitter"></i>
+	                     	</span>
+
+	                     	<span class="facebook-icon">
+	                 				<i class="socialIcons fa fa-facebook btn" data-toggle="tooltip" data-placement="top" title="Like on Facebook Page"></i>
+	                     	</span>
+	                     	
+
+							<span class="google-plus-icon">
+	                     			<i class="socialIcons fa fa-google-plus btn" data-toggle="tooltip" data-placement="top" title="Visit Google Plus Page"></i>
+	                     	</span>
+
+	                     	<span class="youtube-icon">
+	                     			<i class="socialIcons fa fa-youtube btn" data-toggle="tooltip" data-placement="top" title="Watch Youtube Videos"></i>
+	                     	</span>
+
+	                     	<span class="envelope-icon">
+	                     			<i class="socialIcons fa fa-envelope btn" data-toggle="tooltip" data-placement="top" title="Send Email"></i>
+	                     	</span>
+	                
+	                  </div>
+                        
+
+	                </div>
+                </div>
+          </div>
+    </div>
+ 
+    <div class="row about_us_content">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h1 class="title">A little bit about iHub Technologies</h1> 
+            <h5 style="color:#000;">IHUB technologies has unparalleled expertise in providing cost effective business solutions, and in partnership with manufacturers and customers has 
+                        developed tailored solutions for specific industries. We thrive on creating innovative solutions for our clients with a team that
+                        has brought exciting new visions to software and enterprise development. We all shape IHUB and make it unique fun and innovative place. 
+                        We believe in providing right CARD(Commitment, Attitude, Responsibility, Determination) on top of valuable customer satisfaction and endless pursuit of excellence. </h5>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+		<div class="col-md-4 col-xs-6" style="border-right: 2px solid #000">
+			<div class="vision isActive_aboutus" id="vision1">Vision</div>
+			<div class="vision" id="mission1">Mission</div>
+			<div class="vision" id="goal1">Goal</div>
+		</div>
+        <div class="col-md-8 col-xs-12">
+            <div class="vision1 vision2">
+                <h3>Vision</h3>
+                <h5>To emerge as the premier R&D Institution for the design, development and deployment of world class IT solutions for economic and human advancement.</h5>
+            </div>
+            <div class="mission1 vision2" style="display:none;">
+                <h3>Mission</h3>
+                <h5>To ensure that every one of our clients receive the maximum return on the investment they make in our services. IHUB has built its reputation of excellence and integrity by staying true to this commitment with all its client partners.</h5>
+            </div>
+            <div class="goal1 vision2" style="display:none;">
+                <h3>Goal</h3>
+                <h5>To enable people and companies to maximize their business success.</h5>
+            </div>
+        </div>
+    </div>	
+
+</div>
+<script>
+$(document).ready(function(){
+	$('.vision').click(function(){
+        $(".vision").removeClass("isActive_aboutus");
+        $(this).addClass("isActive_aboutus");
+		var change = $(this).attr('id');
+		$(".vision2").hide();
+		$("."+change).show();
+		$("."+change).css("display", "block");
+	});
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>

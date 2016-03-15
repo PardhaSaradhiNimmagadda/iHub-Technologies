@@ -38,9 +38,13 @@ $(document).ready(function(){
     
     var ihubCustomScrollBarHeight = parseInt(documentHeight)-150;
     ihubCustomScrollBarHeight = ihubCustomScrollBarHeight+"px";
-    console.log(ihubCustomScrollBarHeight);
-    $(".ihubCustomScrollBar").css("height", ihubCustomScrollBarHeight);
+    //console.log(ihubCustomScrollBarHeight);
+    $(".ihubCustomScrollBar").css("height", ihubCustomScrollBarHeight); 
+
+	
  
 });
 
-    
+
+
+
